@@ -147,23 +147,23 @@ a {
 
 .services {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: 100%;
     margin: 0;
     padding-top: 30px;
     padding-bottom: 50px;
 }
 .services-1 {
-    grid-column-start: 3;
-    grid-column-end: 4; 
+    grid-column-start: 2;
+    grid-column-end: 3; 
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
 }
 .services-2 {
-    grid-column-start: 3;
-    grid-column-end: 4; 
+    grid-column-start: 2;
+    grid-column-end: 3; 
     margin: 0;
     padding: 0;
     display: flex;
@@ -174,7 +174,7 @@ a {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: 33.33% 33.33% 33.33%;
-    
+    padding-bottom: 130px;
 }
 .point-1 {
     grid-column-start: 1;
@@ -263,4 +263,139 @@ a {
 p {
     padding: 0;
     margin: 0;
+}
+.portfolio {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 100%;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.portfolio-1 {
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.portfolio-2 {
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.foto {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+.foto-1 {
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.foto-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.foto-3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.foto-4 {
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.foto-5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.foto-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.foto-1 img {
+    width: 100px;
+    height: 100px;
+}
+.foto-2 img {
+    width: 100px;
+    height: 100px;
+}
+
+.foto-3 img {
+    width: 100px;
+    height: 100px;
+}
+
+.foto-4 img {
+    width: 100px;
+    height: 100px;
+}
+
+.foto-5 img {
+    width: 100px;
+    height: 100px;
+}
+
+.foto-6 img {
+    width: 100px;
+    height: 100px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 100%;
 }
