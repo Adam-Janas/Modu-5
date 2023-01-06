@@ -1,6 +1,9 @@
-function playGame(playerInput){
+{
+    const playGame=function(playerInput){
+    // function playGame(playerInput){
     clearMessages();
-    function getMoveName(input) {
+    // function getMoveName(input) {
+    const getMoveName=function(input){
         let move = 'nieznany ruch';
         if (input == 1) {
             move = 'kamień';
@@ -14,7 +17,8 @@ function playGame(playerInput){
         return move;
     }
 
-    function displayResult(argComputerMove, argPlayerMove) {
+    // function displayResult(argComputerMove, argPlayerMove) {
+        const displayResult=function(argComputerMove, argPlayerMove) {
         if (argPlayerMove == argComputerMove) {
             printMessage('remis');
         }
@@ -124,3 +128,4 @@ document.getElementById('nozyce').addEventListener('click',function(){
     playGame(3)
 })
 
+}
